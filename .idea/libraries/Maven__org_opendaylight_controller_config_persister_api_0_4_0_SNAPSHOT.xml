@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:config-persister-api:0.4.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-api/0.4.0-SNAPSHOT/config-persister-api-0.4.0-20151202.163544-398.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-api/0.4.0-SNAPSHOT/config-persister-api-0.4.0-20151202.163544-398-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/config-persister-api/0.4.0-SNAPSHOT/config-persister-api-0.4.0-20151202.163544-398-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

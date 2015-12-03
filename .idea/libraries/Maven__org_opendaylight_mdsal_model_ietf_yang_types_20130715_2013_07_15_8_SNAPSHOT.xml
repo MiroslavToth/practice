@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:ietf-yang-types-20130715:2013.07.15.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.8-SNAPSHOT/ietf-yang-types-20130715-2013.07.15.8-20151202.174126-124.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.8-SNAPSHOT/ietf-yang-types-20130715-2013.07.15.8-20151202.174126-124-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.8-SNAPSHOT/ietf-yang-types-20130715-2013.07.15.8-20151202.174126-124-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

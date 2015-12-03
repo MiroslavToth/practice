@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:iana-afn-safi:2013.07.04.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-afn-safi/2013.07.04.8-SNAPSHOT/iana-afn-safi-2013.07.04.8-20151202.174037-124.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-afn-safi/2013.07.04.8-SNAPSHOT/iana-afn-safi-2013.07.04.8-20151202.174037-124-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/iana-afn-safi/2013.07.04.8-SNAPSHOT/iana-afn-safi-2013.07.04.8-20151202.174037-124-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

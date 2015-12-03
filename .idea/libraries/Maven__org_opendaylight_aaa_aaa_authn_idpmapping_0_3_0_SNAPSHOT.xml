@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.aaa:aaa-authn-idpmapping:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-idpmapping/0.3.0-SNAPSHOT/aaa-authn-idpmapping-0.3.0-20151130.194915-85.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-idpmapping/0.3.0-SNAPSHOT/aaa-authn-idpmapping-0.3.0-20151130.194915-85-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/aaa/aaa-authn-idpmapping/0.3.0-SNAPSHOT/aaa-authn-idpmapping-0.3.0-20151130.194915-85-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

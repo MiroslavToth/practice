@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar" sourcepath="M2_REPO/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar" sourcepath="M2_REPO/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/activation/activation/1.1/activation-1.1.jar" sourcepath="M2_REPO/javax/activation/activation/1.1/activation-1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/vehicle-features"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-data-api/0.8.0-SNAPSHOT/yang-data-api-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-data-api/0.8.0-SNAPSHOT/yang-data-api-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/util/0.8.0-SNAPSHOT/util-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/util/0.8.0-SNAPSHOT/util-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/concepts/0.8.0-SNAPSHOT/concepts-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/concepts/0.8.0-SNAPSHOT/concepts-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" sourcepath="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/romix/java-concurrent-hash-trie-map/0.2.23/java-concurrent-hash-trie-map-0.2.23.jar" sourcepath="M2_REPO/com/github/romix/java-concurrent-hash-trie-map/0.2.23/java-concurrent-hash-trie-map-0.2.23-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-common/0.8.0-SNAPSHOT/yang-common-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-common/0.8.0-SNAPSHOT/yang-common-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/object-cache-api/0.8.0-SNAPSHOT/object-cache-api-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/object-cache-api/0.8.0-SNAPSHOT/object-cache-api-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-model-api/0.8.0-SNAPSHOT/yang-model-api-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-model-api/0.8.0-SNAPSHOT/yang-model-api-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-data-impl/0.8.0-SNAPSHOT/yang-data-impl-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-data-impl/0.8.0-SNAPSHOT/yang-data-impl-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-data-util/0.8.0-SNAPSHOT/yang-data-util-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-data-util/0.8.0-SNAPSHOT/yang-data-util-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-model-util/0.8.0-SNAPSHOT/yang-model-util-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-model-util/0.8.0-SNAPSHOT/yang-model-util-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/antlr/antlr4-runtime/4.5.1/antlr4-runtime-4.5.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-data-codec-gson/0.8.0-SNAPSHOT/yang-data-codec-gson-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-data-codec-gson/0.8.0-SNAPSHOT/yang-data-codec-gson-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-parser-impl/0.8.0-SNAPSHOT/yang-parser-impl-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-parser-impl/0.8.0-SNAPSHOT/yang-parser-impl-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-parser-api/0.8.0-SNAPSHOT/yang-parser-api-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-parser-api/0.8.0-SNAPSHOT/yang-parser-api-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/object-cache-guava/0.8.0-SNAPSHOT/object-cache-guava-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/object-cache-guava/0.8.0-SNAPSHOT/object-cache-guava-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/object-cache-noop/0.8.0-SNAPSHOT/object-cache-noop-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/object-cache-noop/0.8.0-SNAPSHOT/object-cache-noop-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-common-api/2.0.0-SNAPSHOT/mdsal-common-api-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-dom-api/2.0.0-SNAPSHOT/mdsal-dom-api-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-dom-spi/2.0.0-SNAPSHOT/mdsal-dom-spi-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-dom-broker/2.0.0-SNAPSHOT/mdsal-dom-broker-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/lmax/disruptor/3.3.0/disruptor-3.3.0.jar" sourcepath="M2_REPO/com/lmax/disruptor/3.3.0/disruptor-3.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-dom-inmemory-datastore/2.0.0-SNAPSHOT/mdsal-dom-inmemory-datastore-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/maven-sal-api-gen-plugin/0.8.0-SNAPSHOT/maven-sal-api-gen-plugin-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-maven-plugin-spi/0.8.0-SNAPSHOT/yang-maven-plugin-spi-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-maven-plugin-spi/0.8.0-SNAPSHOT/yang-maven-plugin-spi-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-generator-api/0.8.0-SNAPSHOT/mdsal-binding-generator-api-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/yang-binding/0.8.0-SNAPSHOT/yang-binding-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-generator-impl/0.8.0-SNAPSHOT/mdsal-binding-generator-impl-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-generator-util/0.8.0-SNAPSHOT/mdsal-binding-generator-util-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/xtend/org.eclipse.xtend.lib/2.8.4/org.eclipse.xtend.lib-2.8.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/xtext/org.eclipse.xtext.xbase.lib/2.8.4/org.eclipse.xtext.xbase.lib-2.8.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/xtend/org.eclipse.xtend.lib.macro/2.8.4/org.eclipse.xtend.lib.macro-2.8.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-java-api-generator/0.8.0-SNAPSHOT/mdsal-binding-java-api-generator-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar" sourcepath="M2_REPO/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/3.0.20/plexus-utils-3.0.20.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-dom-codec/0.8.0-SNAPSHOT/mdsal-binding-dom-codec-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-api/2.0.0-SNAPSHOT/mdsal-binding-api-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-dom-adapter/2.0.0-SNAPSHOT/mdsal-binding-dom-adapter-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/mdsal-binding-util/2.0.0-SNAPSHOT/mdsal-binding-util-2.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/yang-ext/2013.09.07.8-SNAPSHOT/yang-ext-2013.09.07.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/iana-afn-safi/2013.07.04.8-SNAPSHOT/iana-afn-safi-2013.07.04.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/iana-if-type-2014-05-08/2014.05.08.8-SNAPSHOT/iana-if-type-2014-05-08-2014.05.08.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-interfaces/2014.05.08.8-SNAPSHOT/ietf-interfaces-2014.05.08.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-inet-types/2010.09.24.8-SNAPSHOT/ietf-inet-types-2010.09.24.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-yang-types-20130715/2013.07.15.8-SNAPSHOT/ietf-yang-types-20130715-2013.07.15.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-restconf/2013.10.19.8-SNAPSHOT/ietf-restconf-2013.10.19.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-yang-types/2010.09.24.8-SNAPSHOT/ietf-yang-types-2010.09.24.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/opendaylight-l2-types/2013.08.27.8-SNAPSHOT/opendaylight-l2-types-2013.08.27.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-ted/2013.10.21.8-SNAPSHOT/ietf-ted-2013.10.21.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-topology/2013.10.21.8-SNAPSHOT/ietf-topology-2013.10.21.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-topology-isis/2013.10.21.8-SNAPSHOT/ietf-topology-isis-2013.10.21.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-topology-l3-unicast-igp/2013.10.21.8-SNAPSHOT/ietf-topology-l3-unicast-igp-2013.10.21.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-topology-ospf/2013.10.21.8-SNAPSHOT/ietf-topology-ospf-2013.10.21.8-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-network-2015-06-08/1.0.0-SNAPSHOT/ietf-network-2015-06-08-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/model/ietf-inet-types-2013-07-15/1.0.0-SNAPSHOT/ietf-inet-types-2013-07-15-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.jar" sourcepath="M2_REPO/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4.jar" sourcepath="M2_REPO/org/scala-lang/scala-reflect/2.10.4/scala-reflect-2.10.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/config/1.2.0/config-1.2.0.jar" sourcepath="M2_REPO/com/typesafe/config/1.2.0/config-1.2.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-actor_2.10/2.3.14/akka-actor_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-slf4j_2.10/2.3.14/akka-slf4j_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-osgi_2.10/2.3.14/akka-osgi_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0.jar" sourcepath="M2_REPO/org/osgi/org.osgi.core/5.0.0/org.osgi.core-5.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.compendium/5.0.0/org.osgi.compendium-5.0.0.jar" sourcepath="M2_REPO/org/osgi/org.osgi.compendium/5.0.0/org.osgi.compendium-5.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar" sourcepath="M2_REPO/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar" sourcepath="M2_REPO/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty/3.8.0.Final/netty-3.8.0.Final.jar" sourcepath="M2_REPO/io/netty/netty/3.8.0.Final/netty-3.8.0.Final-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-remote_2.10/2.3.14/akka-remote_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-cluster_2.10/2.3.14/akka-cluster_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/iq80/leveldb/leveldb/0.7/leveldb-0.7.jar" sourcepath="M2_REPO/org/iq80/leveldb/leveldb/0.7/leveldb-0.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7.jar" sourcepath="M2_REPO/org/iq80/leveldb/leveldb-api/0.7/leveldb-api-0.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/fusesource/leveldbjni/leveldbjni-all/1.8-odl/leveldbjni-all-1.8-odl.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-buffer/4.0.30.Final/netty-buffer-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-common/4.0.30.Final/netty-common-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-transport/4.0.30.Final/netty-transport-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-codec/4.0.30.Final/netty-codec-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-handler/4.0.30.Final/netty-handler-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-api/0.4.0-SNAPSHOT/config-api-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/netty-config-api/0.4.0-SNAPSHOT/netty-config-api-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-util/0.4.0-SNAPSHOT/config-util-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/yang-jmx-generator/0.4.0-SNAPSHOT/yang-jmx-generator-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/shutdown-api/0.4.0-SNAPSHOT/shutdown-api-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/shutdown-impl/0.4.0-SNAPSHOT/shutdown-impl-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-manager/0.4.0-SNAPSHOT/config-manager-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-persister-api/0.4.0-SNAPSHOT/config-persister-api-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-manager-facade-xml/0.4.0-SNAPSHOT/config-manager-facade-xml-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-persister-file-xml-adapter/0.4.0-SNAPSHOT/config-persister-file-xml-adapter-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2.jar" sourcepath="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.core/2.5.2/org.eclipse.persistence.core-2.5.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2.jar" sourcepath="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.asm/2.5.2/org.eclipse.persistence.asm-2.5.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.2/org.eclipse.persistence.moxy-2.5.2.jar" sourcepath="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.moxy/2.5.2/org.eclipse.persistence.moxy-2.5.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2.jar" sourcepath="M2_REPO/org/eclipse/persistence/org.eclipse.persistence.antlr/2.5.2/org.eclipse.persistence.antlr-2.5.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-persister-impl/0.4.0-SNAPSHOT/config-persister-impl-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-persister-feature-adapter/0.4.0-SNAPSHOT/config-persister-feature-adapter-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-persister-directory-xml-adapter/0.4.0-SNAPSHOT/config-persister-directory-xml-adapter-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar" sourcepath="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/netty-event-executor-config/0.4.0-SNAPSHOT/netty-event-executor-config-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/netty-threadgroup-config/0.4.0-SNAPSHOT/netty-threadgroup-config-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/netty-timer-config/0.4.0-SNAPSHOT/netty-timer-config-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/threadpool-config-api/0.4.0-SNAPSHOT/threadpool-config-api-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/threadpool-config-impl/0.4.0-SNAPSHOT/threadpool-config-impl-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-akka-raft/1.3.0-SNAPSHOT/sal-akka-raft-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-clustering-commons/1.3.0-SNAPSHOT/sal-clustering-commons-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-persistence-experimental_2.10/2.3.14/akka-persistence-experimental_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/typesafe/akka/akka-testkit_2.10/2.3.14/akka-testkit_2.10-2.3.14.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/codahale/metrics/metrics-core/3.0.1/metrics-core-3.0.1.jar" sourcepath="M2_REPO/com/codahale/metrics/metrics-core/3.0.1/metrics-core-3.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/codahale/metrics/metrics-graphite/3.0.1/metrics-graphite-3.0.1.jar" sourcepath="M2_REPO/com/codahale/metrics/metrics-graphite/3.0.1/metrics-graphite-3.0.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-common-api/1.3.0-SNAPSHOT/sal-common-api-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-common-impl/1.3.0-SNAPSHOT/sal-common-impl-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-common-util/1.3.0-SNAPSHOT/sal-common-util-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-core-spi/1.3.0-SNAPSHOT/sal-core-spi-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-core-api/1.3.0-SNAPSHOT/sal-core-api-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-broker-impl/1.3.0-SNAPSHOT/sal-broker-impl-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-inmemory-datastore/1.3.0-SNAPSHOT/sal-inmemory-datastore-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-binding-api/1.3.0-SNAPSHOT/sal-binding-api-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-dom-config/1.3.0-SNAPSHOT/sal-dom-config-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-karaf-xsql/1.3.0-SNAPSHOT/sal-karaf-xsql-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/shell/org.apache.karaf.shell.console/3.0.3/org.apache.karaf.shell.console-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/shell/org.apache.karaf.shell.console/3.0.3/org.apache.karaf.shell.console-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/jline/jline/0.9.1/jline-0.9.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/jaas/org.apache.karaf.jaas.modules/3.0.3/org.apache.karaf.jaas.modules-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/jaas/org.apache.karaf.jaas.modules/3.0.3/org.apache.karaf.jaas.modules-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/jaas/org.apache.karaf.jaas.config/3.0.3/org.apache.karaf.jaas.config-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/jaas/org.apache.karaf.jaas.config/3.0.3/org.apache.karaf.jaas.config-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.fileinstall/3.1.6/org.apache.felix.fileinstall-3.1.6.jar" sourcepath="M2_REPO/org/apache/felix/org.apache.felix.fileinstall/3.1.6/org.apache.felix.fileinstall-3.1.6-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/sshd/sshd-core/0.12.0/sshd-core-0.12.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/mina/mina-core/2.0.7/mina-core-2.0.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-dom-xsql/1.3.0-SNAPSHOT/sal-dom-xsql-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-binding-config/1.3.0-SNAPSHOT/sal-binding-config-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-binding-broker-impl/1.3.0-SNAPSHOT/sal-binding-broker-impl-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-binding-util/1.3.0-SNAPSHOT/sal-binding-util-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/yang-jmx-generator-plugin/0.4.0-SNAPSHOT/yang-jmx-generator-plugin-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-connector-api/1.3.0-SNAPSHOT/sal-connector-api-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-distributed-datastore/1.3.0-SNAPSHOT/sal-distributed-datastore-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-dom-broker-config/1.3.0-SNAPSHOT/sal-dom-broker-config-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/messagebus-api/1.3.0-SNAPSHOT/messagebus-api-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/model/model-inventory/1.3.0-SNAPSHOT/model-inventory-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/messagebus-impl/1.3.0-SNAPSHOT/messagebus-impl-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/messagebus-util/1.3.0-SNAPSHOT/messagebus-util-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/messagebus-spi/1.3.0-SNAPSHOT/messagebus-spi-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-remoterpc-connector/1.3.0-SNAPSHOT/sal-remoterpc-connector-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/samples/clustering-it-model/1.3.0-SNAPSHOT/clustering-it-model-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/samples/clustering-it-provider/1.3.0-SNAPSHOT/clustering-it-provider-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/equinoxSDK381/org.eclipse.osgi/3.8.1.v20120830-144521/org.eclipse.osgi-3.8.1.v20120830-144521.jar" sourcepath="M2_REPO/equinoxSDK381/org.eclipse.osgi/3.8.1.v20120830-144521/org.eclipse.osgi-3.8.1.v20120830-144521-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/samples/sample-toaster/1.3.0-SNAPSHOT/sample-toaster-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/samples/sample-toaster-consumer/1.3.0-SNAPSHOT/sample-toaster-consumer-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/samples/sample-toaster-provider/1.3.0-SNAPSHOT/sample-toaster-provider-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-servlet/1.17/jersey-servlet-1.17.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-servlet/1.17/jersey-servlet-1.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-server/1.17/jersey-server-1.17.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-server/1.17/jersey-server-1.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/asm/asm/3.1/asm-3.1.jar" sourcepath="M2_REPO/asm/asm/3.1/asm-3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-core/1.17/jersey-core-1.17.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-core/1.17/jersey-core-1.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-json/1.17/jersey-json-1.17.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-json/1.17/jersey-json-1.17-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jettison/jettison/1.3.7/jettison-1.3.7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar" sourcepath="M2_REPO/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.9.2/jackson-core-asl-1.9.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.9.2/jackson-mapper-asl-1.9.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-jaxrs/1.9.2/jackson-jaxrs-1.9.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2.jar" sourcepath="M2_REPO/org/codehaus/jackson/jackson-xc/1.9.2/jackson-xc-1.9.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.dependencymanager/3.1.0/org.apache.felix.dependencymanager-3.1.0.jar" sourcepath="M2_REPO/org/apache/felix/org.apache.felix.dependencymanager/3.1.0/org.apache.felix.dependencymanager-3.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.metatype/1.0.10/org.apache.felix.metatype-1.0.10.jar" sourcepath="M2_REPO/org/apache/felix/org.apache.felix.metatype/1.0.10/org.apache.felix.metatype-1.0.10-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/sf/ehcache/ehcache/2.8.3/ehcache-2.8.3.jar" sourcepath="M2_REPO/net/sf/ehcache/ehcache/2.8.3/ehcache-2.8.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar" sourcepath="M2_REPO/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.0/org.apache.oltu.oauth2.common-1.0.0.jar" sourcepath="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.common/1.0.0/org.apache.oltu.oauth2.common-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/json/json/20131018/json-20131018.jar" sourcepath="M2_REPO/org/json/json/20131018/json-20131018-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.0/org.apache.oltu.oauth2.authzserver-1.0.0.jar" sourcepath="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.authzserver/1.0.0/org.apache.oltu.oauth2.authzserver-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.resourceserver/1.0.0/org.apache.oltu.oauth2.resourceserver-1.0.0.jar" sourcepath="M2_REPO/org/apache/oltu/oauth2/org.apache.oltu.oauth2.resourceserver/1.0.0/org.apache.oltu.oauth2.resourceserver-1.0.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar" sourcepath="M2_REPO/org/glassfish/javax.json/1.0.4/javax.json-1.0.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.3.2/jackson-core-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.3.2/jackson-annotations-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.3.2/jackson-annotations-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.3.2/jackson-databind-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.3.2/jackson-datatype-json-org-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/datatype/jackson-datatype-json-org/2.3.2/jackson-datatype-json-org-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.3.2/jackson-jaxrs-base-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.3.2/jackson-jaxrs-base-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.3.2/jackson-jaxrs-json-provider-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.3.2/jackson-jaxrs-json-provider-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.3.2/jackson-module-jaxb-annotations-2.3.2.jar" sourcepath="M2_REPO/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.3.2/jackson-module-jaxb-annotations-2.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/h2database/h2/1.4.185/h2-1.4.185.jar" sourcepath="M2_REPO/com/h2database/h2/1.4.185/h2-1.4.185-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-api/0.3.0-SNAPSHOT/aaa-authn-api-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-credential-store-api/0.3.0-SNAPSHOT/aaa-credential-store-api-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn/0.3.0-SNAPSHOT/aaa-authn-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-sts/0.3.0-SNAPSHOT/aaa-authn-sts-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-store/0.3.0-SNAPSHOT/aaa-authn-store-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-basic/0.3.0-SNAPSHOT/aaa-authn-basic-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-idmlight/0.3.0-SNAPSHOT/aaa-idmlight-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-federation/0.3.0-SNAPSHOT/aaa-authn-federation-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-h2-store/0.3.0-SNAPSHOT/aaa-h2-store-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/osgi/org.osgi.enterprise/4.2.0/org.osgi.enterprise-4.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-mdsal-store-impl/0.3.0-SNAPSHOT/aaa-authn-mdsal-store-impl-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-mdsal-api/0.3.0-SNAPSHOT/aaa-authn-mdsal-api-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-sssd/0.3.0-SNAPSHOT/aaa-authn-sssd-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-idpmapping/0.3.0-SNAPSHOT/aaa-authn-idpmapping-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/aaa/aaa-authn-keystone/0.3.0-SNAPSHOT/aaa-authn-keystone-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore-osgi/4.4/httpcore-osgi-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore-nio/4.4/httpcore-nio-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient-osgi/4.4/httpclient-osgi-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.3.5/httpclient-4.3.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpmime/4.4/httpmime-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient-cache/4.4/httpclient-cache-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/fluent-hc/4.4/fluent-hc-4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/sal-remote/1.3.0-SNAPSHOT/sal-remote-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/netconf/sal-rest-connector/1.3.0-SNAPSHOT/sal-rest-connector-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty-codec-http/4.0.30.Final/netty-codec-http-4.0.30.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-model-export/0.8.0-SNAPSHOT/yang-model-export-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-model-export/0.8.0-SNAPSHOT/yang-model-export-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/java/dev/stax-utils/stax-utils/20070216/stax-utils-20070216.jar" sourcepath="M2_REPO/net/java/dev/stax-utils/stax-utils/20070216/stax-utils-20070216-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/bea/xml/jsr173-ri/1.0/jsr173-ri-1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/netconf/sal-rest-docgen/1.3.0-SNAPSHOT/sal-rest-docgen-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jboss/resteasy/jaxrs-api/3.0.4.Final/jaxrs-api-3.0.4.Final.jar" sourcepath="M2_REPO/org/jboss/resteasy/jaxrs-api/3.0.4.Final/jaxrs-api-3.0.4.Final-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/odlparent/features-test/1.6.0-SNAPSHOT/features-test-1.6.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-container-karaf/4.4.0/pax-exam-container-karaf-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-container-karaf/4.4.0/pax-exam-container-karaf-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam/4.4.0/pax-exam-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam/4.4.0/pax-exam-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-lang/1.4.0/ops4j-base-lang-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-store/1.5.0/ops4j-base-store-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-store/1.5.0/ops4j-base-store-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-io/1.5.0/ops4j-base-io-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-io/1.5.0/ops4j-base-io-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-monitors/1.4.0/ops4j-base-monitors-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-util-property/1.5.0/ops4j-base-util-property-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-util-property/1.5.0/ops4j-base-util-property-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-container-remote/4.4.0/pax-exam-container-remote-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-container-remote/4.4.0/pax-exam-container-remote-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-container-rbc-client/4.4.0/pax-exam-container-rbc-client-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-container-rbc-client/4.4.0/pax-exam-container-rbc-client-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-container-rbc/4.4.0/pax-exam-container-rbc-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-container-rbc/4.4.0/pax-exam-container-rbc-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-spi/4.4.0/pax-exam-spi-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-spi/4.4.0/pax-exam-spi-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-spi/1.5.0/ops4j-base-spi-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-spi/1.5.0/ops4j-base-spi-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/tinybundles/tinybundles/2.1.0/tinybundles-2.1.0.jar" sourcepath="M2_REPO/org/ops4j/pax/tinybundles/tinybundles/2.1.0/tinybundles-2.1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bnd/bndlib/2.3.0/bndlib-2.3.0.jar" sourcepath="M2_REPO/biz/aQute/bnd/bndlib/2.3.0/bndlib-2.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-core/1.8.0/pax-swissbox-core-1.8.0.jar" sourcepath="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-core/1.8.0/pax-swissbox-core-1.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-lifecycle/1.8.0/pax-swissbox-lifecycle-1.8.0.jar" sourcepath="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-lifecycle/1.8.0/pax-swissbox-lifecycle-1.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-net/1.4.0/ops4j-base-net-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar" sourcepath="M2_REPO/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-framework/1.8.0/pax-swissbox-framework-1.8.0.jar" sourcepath="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-framework/1.8.0/pax-swissbox-framework-1.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-tracker/1.8.0/pax-swissbox-tracker-1.8.0.jar" sourcepath="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-tracker/1.8.0/pax-swissbox-tracker-1.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-exec/1.5.0/ops4j-base-exec-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-exec/1.5.0/ops4j-base-exec-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/exam/pax-exam-junit4/4.4.0/pax-exam-junit4-4.4.0.jar" sourcepath="M2_REPO/org/ops4j/pax/exam/pax-exam-junit4/4.4.0/pax-exam-junit4-4.4.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.11/junit-4.11.jar" sourcepath="M2_REPO/junit/junit/4.11/junit-4.11-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/url/pax-url-aether/1.5.0/pax-url-aether-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/pax/url/pax-url-aether/1.5.0/pax-url-aether-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/url/pax-url-commons/2.3.0/pax-url-commons-2.3.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-property/1.8.0/pax-swissbox-property-1.8.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/url/pax-url-maven-commons/1.5.0/pax-url-maven-commons-1.5.0.jar" sourcepath="M2_REPO/org/ops4j/pax/url/pax-url-maven-commons/1.5.0/pax-url-maven-commons-1.5.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-util-xml/1.3.0/ops4j-base-util-xml-1.3.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-util-xml/1.3.0/ops4j-base-util-xml-1.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/base/ops4j-base-util-collections/1.3.0/ops4j-base-util-collections-1.3.0.jar" sourcepath="M2_REPO/org/ops4j/base/ops4j-base-util-collections/1.3.0/ops4j-base-util-collections-1.3.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/aether/aether-api/1.11/aether-api-1.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1.jar" sourcepath="M2_REPO/org/sonatype/aether/aether-spi/1.13.1/aether-spi-1.13.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/aether/aether-util/1.11/aether-util-1.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1.jar" sourcepath="M2_REPO/org/sonatype/aether/aether-impl/1.13.1/aether-impl-1.13.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1.jar" sourcepath="M2_REPO/org/sonatype/aether/aether-connector-wagon/1.13.1/aether-connector-wagon-1.13.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-provider-api/2.1/wagon-provider-api-2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-classworlds/2.4/plexus-classworlds-2.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/sisu/sisu-inject-plexus/2.1.1/sisu-inject-plexus-2.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4.jar" sourcepath="M2_REPO/org/apache/maven/maven-aether-provider/3.0.4/maven-aether-provider-3.0.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-model-builder/3.0.3/maven-model-builder-3.0.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-file/1.0-beta-7/wagon-file-1.0-beta-7.jar" sourcepath="M2_REPO/org/apache/maven/wagon/wagon-file/1.0-beta-7/wagon-file-1.0-beta-7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-7/wagon-http-lightweight-1.0-beta-7.jar" sourcepath="M2_REPO/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-7/wagon-http-lightweight-1.0-beta-7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-http-shared/2.8/wagon-http-shared-2.8.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-container-default/1.5.5/plexus-container-default-1.5.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" sourcepath="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/features/org.apache.karaf.features.core/3.0.3/org.apache.karaf.features.core-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/features/org.apache.karaf.features.core/3.0.3/org.apache.karaf.features.core-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/tooling/karaf-maven-plugin/3.0.3/karaf-maven-plugin-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/tooling/karaf-maven-plugin/3.0.3/karaf-maven-plugin-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-plugin-api/2.2.1/maven-plugin-api-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2.jar" sourcepath="M2_REPO/org/eclipse/aether/aether-api/0.9.0.M2/aether-api-0.9.0.M2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2.jar" sourcepath="M2_REPO/org/eclipse/aether/aether-util/0.9.0.M2/aether-util-0.9.0.M2-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-core/2.2.1/maven-core-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar" sourcepath="M2_REPO/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar" sourcepath="M2_REPO/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-compat/3.0.3/maven-compat-3.0.3.jar" sourcepath="M2_REPO/org/apache/maven/maven-compat/3.0.3/maven-compat-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-http/2.8/wagon-http-2.8.jar" sourcepath="M2_REPO/org/apache/maven/wagon/wagon-http/2.8/wagon-http-2.8-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/jsoup/jsoup/1.7.2/jsoup-1.7.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/slf4j-jdk14/1.7.7/slf4j-jdk14-1.7.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/shared/maven-filtering/1.0-beta-4/maven-filtering-1.0-beta-4.jar" sourcepath="M2_REPO/org/apache/maven/shared/maven-filtering/1.0-beta-4/maven-filtering-1.0-beta-4-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/classworlds/classworlds/1.1/classworlds-1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-monitor/2.2.1/maven-monitor-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/maven-bundle-plugin/2.5.3/maven-bundle-plugin-2.5.3.jar" sourcepath="M2_REPO/org/apache/felix/maven-bundle-plugin/2.5.3/maven-bundle-plugin-2.5.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.apache.felix.utils/1.6.0/org.apache.felix.utils-1.6.0.jar" sourcepath="M2_REPO/org/apache/felix/org.apache.felix.utils/1.6.0/org.apache.felix.utils-1.6.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar" sourcepath="M2_REPO/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1.jar" sourcepath="M2_REPO/org/apache/maven/shared/maven-dependency-tree/2.1/maven-dependency-tree-2.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-sink-api/1.0/doxia-sink-api-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-site-renderer/1.0/doxia-site-renderer-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-core/1.0/doxia-core-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-i18n/1.0-beta-7/plexus-i18n-1.0-beta-7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7.jar" sourcepath="M2_REPO/org/codehaus/plexus/plexus-velocity/1.1.7/plexus-velocity-1.1.7-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.5/velocity-1.5.jar" sourcepath="M2_REPO/org/apache/velocity/velocity/1.5/velocity-1.5-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-decoration-model/1.0/doxia-decoration-model-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-module-apt/1.0/doxia-module-apt-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-module-fml/1.0/doxia-module-fml-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-module-xdoc/1.0/doxia-module-xdoc-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0.jar" sourcepath="M2_REPO/org/apache/maven/doxia/doxia-module-xhtml/1.0/doxia-module-xhtml-1.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/url/pax-url-wrap/2.3.0/pax-url-wrap-2.3.0-uber.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-bnd/1.8.0/pax-swissbox-bnd-1.8.0.jar" sourcepath="M2_REPO/org/ops4j/pax/swissbox/pax-swissbox-bnd/1.8.0/pax-swissbox-bnd-1.8.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/3.0.3/org.apache.karaf.deployer.spring-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.spring/3.0.3/org.apache.karaf.deployer.spring-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.blueprint/3.0.3/org.apache.karaf.deployer.blueprint-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.blueprint/3.0.3/org.apache.karaf.deployer.blueprint-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.features/3.0.3/org.apache.karaf.deployer.features-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.features/3.0.3/org.apache.karaf.deployer.features-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.kar/3.0.3/org.apache.karaf.deployer.kar-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/deployer/org.apache.karaf.deployer.kar/3.0.3/org.apache.karaf.deployer.kar-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/kar/org.apache.karaf.kar.core/3.0.3/org.apache.karaf.kar.core-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/kar/org.apache.karaf.kar.core/3.0.3/org.apache.karaf.kar.core-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/karaf/org.apache.karaf.util/3.0.3/org.apache.karaf.util-3.0.3.jar" sourcepath="M2_REPO/org/apache/karaf/org.apache.karaf.util/3.0.3/org.apache.karaf.util-3.0.3-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/servicemix/bundles/org.apache.servicemix.bundles.ant/1.8.4_1/org.apache.servicemix.bundles.ant-1.8.4_1.jar" sourcepath="M2_REPO/org/apache/servicemix/bundles/org.apache.servicemix.bundles.ant/1.8.4_1/org.apache.servicemix.bundles.ant-1.8.4_1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xbean/xbean-finder-shaded/3.18/xbean-finder-shaded-3.18.jar" sourcepath="M2_REPO/org/apache/xbean/xbean-finder-shaded/3.18/xbean-finder-shaded-3.18-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/xbean/xbean-asm5-shaded/3.18/xbean-asm5-shaded-3.18.jar" sourcepath="M2_REPO/org/apache/xbean/xbean-asm5-shaded/3.18/xbean-asm5-shaded-3.18-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/loader/0.3.0-SNAPSHOT/loader-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/loader.implementation/0.3.0-SNAPSHOT/loader.implementation-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux-web/0.3.0-SNAPSHOT/dlux-web-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.node.resources/0.2.0-SNAPSHOT/dlux.node.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.yangutils.resources/0.2.0-SNAPSHOT/dlux.common.yangutils.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.sigmatopology.resources/0.2.0-SNAPSHOT/dlux.common.sigmatopology.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.navigation.resources/0.2.0-SNAPSHOT/dlux.common.navigation.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.layout.resources/0.2.0-SNAPSHOT/dlux.common.layout.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.authentication.resources/0.2.0-SNAPSHOT/dlux.common.authentication.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.login.resources/0.2.0-SNAPSHOT/dlux.common.login.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.general.resources/0.2.0-SNAPSHOT/dlux.common.general.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.yangui.resources/0.2.0-SNAPSHOT/dlux.yangui.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.yangvisualizer.resources/0.2.0-SNAPSHOT/dlux.yangvisualizer.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.topology.resources/0.2.0-SNAPSHOT/dlux.topology.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.loader.resources/0.2.0-SNAPSHOT/dlux.loader.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.core.resources/0.2.0-SNAPSHOT/dlux.core.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.topbar.resources/0.2.0-SNAPSHOT/dlux.common.topbar.resources-0.2.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.core/0.3.0-SNAPSHOT/dlux.core-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.osgi.compendium/1.4.0/org.osgi.compendium-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.osgi.core/1.4.0/org.osgi.core-1.4.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/javax.servlet/1.0.0/javax.servlet-1.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/felix/org.osgi.foundation/1.2.0/org.osgi.foundation-1.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.layout/0.3.0-SNAPSHOT/dlux.common.layout-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.login/0.3.0-SNAPSHOT/dlux.common.login-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.authentication/0.3.0-SNAPSHOT/dlux.common.authentication-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.navigation/0.3.0-SNAPSHOT/dlux.common.navigation-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.topbar/0.3.0-SNAPSHOT/dlux.common.topbar-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.general/0.3.0-SNAPSHOT/dlux.common.general-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.node/0.3.0-SNAPSHOT/dlux.node-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.topology/0.3.0-SNAPSHOT/dlux.topology-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.yangui/0.3.0-SNAPSHOT/dlux.yangui-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.yangutils/0.3.0-SNAPSHOT/dlux.common.yangutils-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.common.sigmatopology/0.3.0-SNAPSHOT/dlux.common.sigmatopology-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/dlux/dlux.yangvisualizer/0.3.0-SNAPSHOT/dlux.yangvisualizer-0.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="src" path="/vehicle-impl"/>
+	<classpathentry kind="src" path="/vehicle-api"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/plugins/maven-eclipse-plugin/2.10/maven-eclipse-plugin-2.10.jar"/>
+	<classpathentry kind="var" path="M2_REPO/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-plugin-parameter-documenter/2.2.1/maven-plugin-parameter-documenter-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-webdav-jackrabbit/1.0-beta-6/wagon-webdav-jackrabbit-1.0-beta-6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-webdav/1.5.0/jackrabbit-webdav-1.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/jackrabbit/jackrabbit-jcr-commons/1.5.0/jackrabbit-jcr-commons-1.5.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-nop/1.5.3/slf4j-nop-1.5.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/doxia/doxia-logging-api/1.1/doxia-logging-api-1.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-ssh-external/1.0-beta-6/wagon-ssh-external-1.0-beta-6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-ssh-common/1.0-beta-6/wagon-ssh-common-1.0-beta-6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-interactivity-api/1.0-alpha-4/plexus-interactivity-api-1.0-alpha-4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/wagon/wagon-ssh/1.0-beta-6/wagon-ssh-1.0-beta-6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/jcraft/jsch/0.1.38/jsch-0.1.38.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-interactivity-jline/1.0-alpha-5/plexus-interactivity-jline-1.0-alpha-5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-resources/1.0-alpha-7/plexus-resources-1.0-alpha-7.jar"/>
+	<classpathentry kind="var" path="M2_REPO/biz/aQute/bndlib/0.0.145/bndlib-0.0.145.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/maven/shared/maven-osgi/0.2.0/maven-osgi-0.2.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/eclipse/core/resources/3.3.0-v20070604/resources-3.3.0-v20070604.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/mdsal-it-base/1.3.0-SNAPSHOT/mdsal-it-base-1.3.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/controller/config-it-base/0.4.0-SNAPSHOT/config-it-base-0.4.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar" sourcepath="M2_REPO/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5-sources.jar"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

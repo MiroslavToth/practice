@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="target/generated-classes/mdsal-binding">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/*.java" kind="src" path="target/generated-sources/spi"/>
+	<classpathentry excluding="**/*.java" kind="src" path="target/generated-sources/yang"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/mdsal/yang-binding/0.8.0-SNAPSHOT/yang-binding-0.8.0-SNAPSHOT.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/concepts/0.8.0-SNAPSHOT/concepts-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/concepts/0.8.0-SNAPSHOT/concepts-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/util/0.8.0-SNAPSHOT/util-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/util/0.8.0-SNAPSHOT/util-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" sourcepath="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/romix/java-concurrent-hash-trie-map/0.2.23/java-concurrent-hash-trie-map-0.2.23.jar" sourcepath="M2_REPO/com/github/romix/java-concurrent-hash-trie-map/0.2.23/java-concurrent-hash-trie-map-0.2.23-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/yang-common/0.8.0-SNAPSHOT/yang-common-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/yang-common/0.8.0-SNAPSHOT/yang-common-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/opendaylight/yangtools/object-cache-api/0.8.0-SNAPSHOT/object-cache-api-0.8.0-SNAPSHOT.jar" sourcepath="M2_REPO/org/opendaylight/yangtools/object-cache-api/0.8.0-SNAPSHOT/object-cache-api-0.8.0-SNAPSHOT-sources.jar"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

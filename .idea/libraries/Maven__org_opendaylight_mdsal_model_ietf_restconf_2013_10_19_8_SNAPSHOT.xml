@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.mdsal.model:ietf-restconf:2013.10.19.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-restconf/2013.10.19.8-SNAPSHOT/ietf-restconf-2013.10.19.8-20151202.174102-124.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-restconf/2013.10.19.8-SNAPSHOT/ietf-restconf-2013.10.19.8-20151202.174102-124-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/mdsal/model/ietf-restconf/2013.10.19.8-SNAPSHOT/ietf-restconf-2013.10.19.8-20151202.174102-124-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

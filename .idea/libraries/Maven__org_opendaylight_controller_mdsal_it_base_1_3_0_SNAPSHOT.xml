@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.opendaylight.controller:mdsal-it-base:1.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-it-base/1.3.0-SNAPSHOT/mdsal-it-base-1.3.0-20151202.163653-237.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-it-base/1.3.0-SNAPSHOT/mdsal-it-base-1.3.0-20151202.163653-237-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/opendaylight/controller/mdsal-it-base/1.3.0-SNAPSHOT/mdsal-it-base-1.3.0-20151202.163653-237-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

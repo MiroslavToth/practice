@@ -1,0 +1,91 @@
+module vehicle {
+
+    yang-version 1;
+    namespace "org:project:vehicle";
+    prefix veh;
+
+    description "YANG version for the VEHICLE-MIB";
+
+    revision "2015-12-02" {
+        description "Module in progress";
+    }
+
+    identity vehicle-type {
+        description "Base type for all vehicle types listed below, other vehicles can be added later on."
+    }
+
+    identity car {
+        base veh:vehicle-type;
+        description "Any car";
+    }
+
+    identity boat {
+        base veh: vehicle-type;
+        description "Any boat";
+    }
+
+    identity motorbike {
+        base veh: vehicle-type;
+        description "Any motorbike";
+    }
+
+    identity truck {
+        base veh: vehicle-type;
+        description "Any truck";
+    }
+
+    typedef VINString {
+        type string {
+            length "0 .. 16";
+        }
+        description "A string representing the vehicle VIN number.";
+    }
+
+    container vehicle {
+        presence "Indicates the vehicle service is available.";
+        description "Top-level container for all vehicle objects.";
+
+        leaf vehicleManufacturer {
+            type string;
+            mandatory true;
+            config false;
+        }
+
+        leaf vehicleVINNumber {
+            type VINString;
+            mandatory true;
+            config false;
+        }
+
+        leaf vehicleMotorNumber {
+            type uint32;
+            mandatory true;
+            config false;
+        }
+
+        leaf vehicleColor {
+            type enumeration {
+                enum "RED";
+                enum "GREEN";
+                enum "BLUE";
+                enum "WHITE";
+                enum "BLACK";
+            }
+            mandatory true;
+            config fasle;
+        }
+
+        leaf vehicleStatus {
+            type enumeration {
+                enum "ON" {
+                    value 1;
+                    description "The vehicle is allowed to run.";
+                }
+                enum "OFF" {
+                    value 0;
+                    description "The vehicle is not allowed to run.";
+                }
+            }
+        }
+    }
+}
