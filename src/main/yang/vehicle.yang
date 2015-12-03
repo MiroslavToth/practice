@@ -86,6 +86,7 @@ module vehicle {
                     description "The vehicle is not allowed to run.";
                 }
             }
+            description "This value indicates whether a vehicle is able to operate.";
         }
     }
 }
