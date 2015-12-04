@@ -11,7 +11,7 @@ module vehicle {
     }
 
     identity vehicle-type {
-        description "Base type for all vehicle types listed below, other vehicles can be added later on."
+        description "Base type for all vehicle types listed below, other vehicles can be added later on.";
     }
 
     identity car {
@@ -20,17 +20,17 @@ module vehicle {
     }
 
     identity boat {
-        base veh: vehicle-type;
+        base veh:vehicle-type;
         description "Any boat";
     }
 
     identity motorbike {
-        base veh: vehicle-type;
+        base veh:vehicle-type;
         description "Any motorbike";
     }
 
     identity truck {
-        base veh: vehicle-type;
+        base veh:vehicle-type;
         description "Any truck";
     }
 
@@ -72,7 +72,7 @@ module vehicle {
                 enum "BLACK";
             }
             mandatory true;
-            config fasle;
+            config false;
         }
 
         leaf vehicleStatus {

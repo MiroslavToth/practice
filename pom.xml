@@ -7,18 +7,26 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
+  <artifactId>vehicle-aggregator</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <name>vehicle</name>
+  <packaging>pom</packaging>
+  <modelVersion>4.0.0</modelVersion>
+<!--
+  <parent>
+    <groupId>org.practice.vehicle</groupId>
+    <artifactId>vehicle-parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <relativePath>parent/</relativePath>
+  </parent>
+-->
+
   <parent>
     <groupId>org.opendaylight.odlparent</groupId>
     <artifactId>odlparent</artifactId>
     <version>1.6.0-SNAPSHOT</version>
   </parent>
 
-  <groupId>org.practice.vehicle</groupId>
-  <artifactId>vehicle-aggregator</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <name>vehicle</name>
-  <packaging>pom</packaging>
-  <modelVersion>4.0.0</modelVersion>
   <prerequisites>
     <maven>3.1.1</maven>
   </prerequisites>
@@ -36,6 +44,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.8.2</version>
         <configuration>
           <skip>true</skip>
         </configuration>
@@ -43,12 +52,62 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-install-plugin</artifactId>
+        <version>2.5.2</version>
         <configuration>
           <skip>true</skip>
         </configuration>
       </plugin>
+
+      <plugin>
+        <groupId>org.opendaylight.yangtools</groupId>
+        <artifactId>yang-maven-plugin</artifactId>
+        <version>0.6.2-SNAPSHOT</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>generate-sources</goal>
+            </goals>
+            <configuration>
+              <yangFilesRootDir>src/main/yang</yangFilesRootDir>
+              <codeGenerators>
+                <generator>
+                  <codeGeneratorClass>org.opendaylight.yangtools.maven.sal.api.gen.plugin.CodeGeneratorImpl</codeGeneratorClass>
+                  <outputBaseDir>src/main/yang-gen-sal</outputBaseDir>
+                </generator>
+              </codeGenerators>
+              <inspectDependencies>true</inspectDependencies>
+            </configuration>
+          </execution>
+        </executions>
+        <dependencies>
+          <dependency>
+            <groupId>org.opendaylight.yangtools</groupId>
+            <artifactId>maven-sal-api-gen-plugin</artifactId>
+            <version>0.6.2-SNAPSHOT</version>
+            <type>jar</type>
+          </dependency>
+        </dependencies>
+      </plugin>
     </plugins>
   </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.opendaylight.yangtools</groupId>
+      <artifactId>yang-binding</artifactId>
+      <version>0.6.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.yangtools</groupId>
+      <artifactId>yang-common</artifactId>
+      <version>0.6.2-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.opendaylight.controller</groupId>
+      <artifactId>sal-binding-api</artifactId>
+      <version>1.3.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 
   <scm>
     <connection>scm:git:ssh://git.opendaylight.org:29418/vehicle.git</connection>

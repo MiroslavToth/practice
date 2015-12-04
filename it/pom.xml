@@ -36,6 +36,12 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
       <artifactId>vehicle-features</artifactId>
       <version>${project.version}</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.ops4j.pax</groupId>
+      <artifactId>exam</artifactId>
+      <version>4.4.0</version>
+    </dependency>
   </dependencies>
 
 </project>
