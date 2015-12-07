@@ -1,0 +1,42 @@
+module vehicle-provider-impl {
+
+    yang-version 1;
+    namespace "urn:opendaylight:params:xml:ns:yang:controller:config:toaster-provider:impl";
+    prefix "veh-prov";
+
+    import config {
+        prefix config;
+        revision-date 2013-04-05;
+    }
+
+    import open-daylight-md-sal-binding {
+        prefix mdsal;
+        revision-date 2013-10-28;
+    }
+
+    description "This module contains the base YANG definition for vehicle-provider impl.";
+
+    revision "2015-12-07" {
+        description "Initial version";
+    }
+
+    identity vehicle-provider-impl {
+        base config:module-type;
+        config:java-name-prefix VehicleProvider;
+    }
+
+    augment "/config:modules/config:module/config:configuration" {
+        case vehicle-provider-impl {
+            when "/config:modules/config:module/config:type = 'vehicle-provider-impl'";
+
+            container data-broker {
+                uses config:service-ref {
+                    refine type {
+                    mandatory false;
+                    config:required-identity mdsal:binding-async-data-broker;
+                    }
+                }
+            }
+        }
+    }
+}
