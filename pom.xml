@@ -38,6 +38,7 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
     <module>artifacts</module>
     <module>it</module>
   </modules>
+
   <!-- DO NOT install or deploy the repo root pom as it's only needed to initiate a build -->
   <build>
     <plugins>
@@ -70,6 +71,15 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
             <configuration>
               <yangFilesRootDir>src/main/yang</yangFilesRootDir>
               <codeGenerators>
+                <generator>
+                  <codeGeneratorClass>org.opendaylight.controller.config.yangjmxgenerator.plugin.JMXGenerator</codeGeneratorClass>
+                  <outputBaseDir>src/main/yang-gen-sal</outputBaseDir>
+                  <additionalConfiguration>
+                    <namespaceToPackage1>
+                      urn:opendaylight:params:xml:ns:yang:controller==org.opendaylight.controller.config.yang
+                    </namespaceToPackage1>
+                  </additionalConfiguration>
+                </generator>
                 <generator>
                   <codeGeneratorClass>org.opendaylight.yangtools.maven.sal.api.gen.plugin.CodeGeneratorImpl</codeGeneratorClass>
                   <outputBaseDir>src/main/yang-gen-sal</outputBaseDir>
@@ -112,6 +122,44 @@ and is available at http://www.eclipse.org/legal/epl-v10.html INTERNAL
       <artifactId>sal-common-api</artifactId>
       <version>1.3.0-SNAPSHOT</version>
     </dependency>
+    <dependency>
+       <groupId>org.opendaylight.controller</groupId>
+       <artifactId>config-api</artifactId>
+      <version>0.4.0-SNAPSHOT</version>
+     </dependency>
+    <dependency>
+       <groupId>org.opendaylight.controller</groupId>
+       <artifactId>sal-binding-config</artifactId>
+      <version>1.3.0-SNAPSHOT</version>
+     </dependency>
+     <dependency>
+       <groupId>org.opendaylight.controller</groupId>
+       <artifactId>sal-common-util</artifactId>
+       <version>1.3.0-SNAPSHOT</version>
+     </dependency>
+     <dependency>
+       <groupId>org.osgi</groupId>
+       <artifactId>org.osgi.core</artifactId>
+       <version>5.0.0</version>
+     </dependency>
+     <dependency>
+      <groupId>org.opendaylight.controller</groupId>
+      <artifactId>yang-jmx-generator-plugin</artifactId>
+      <version>0.3.0-Lithium</version>
+     </dependency>
+    <dependency>
+       <groupId>org.opendaylight.controller</groupId>
+       <artifactId>sal-binding-broker-impl</artifactId>
+       <scope>test</scope>
+      <version>1.3.0-SNAPSHOT</version>
+     </dependency>
+     <dependency>
+       <groupId>org.opendaylight.controller</groupId>
+       <artifactId>sal-binding-broker-impl</artifactId>
+       <type>test-jar</type>
+       <scope>test</scope>
+       <version>1.3.0-SNAPSHOT</version>
+     </dependency>
   </dependencies>
 
   <scm>
