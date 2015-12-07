@@ -38,10 +38,17 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
     </dependency>
 
     <dependency>
-      <groupId>org.ops4j.pax</groupId>
-      <artifactId>exam</artifactId>
+      <groupId>org.ops4j.pax.exam</groupId>
+      <artifactId>pax-exam</artifactId>
       <version>4.4.0</version>
+      <type>jar</type>
+    </dependency>
+
+    <dependency>
+      <groupId>org.ops4j.pax.exam</groupId>
+      <artifactId>pax-exam-junit4</artifactId>
+      <version>${exam.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
-
 </project>
