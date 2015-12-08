@@ -1,0 +1,29 @@
+<snapshot>
+
+    <configuration>
+        <data xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+            <modules xmlns="urn:opendaylight:params:xml:ns:yang:controller:config">
+
+                <!-- defines an implementation module -->
+                <module>
+                    <type xmlns:vehicle="urn:opendaylight:params:xml:ns:yang:controller:config:vehicle-provider:impl">
+                        vehicle:vehicle-provider-impl
+                    </type>
+
+                    <name>vehicle-provider-impl</name>
+
+                    <data-broker>
+                       <type xmlns:binding="urn:opendaylight:params:xml:ns:yang:controller:md:sal:binding">binding:binding-async-data-broker</type>
+                       <name>binding-data-broker</name>
+                   </data-broker>
+                </module>
+
+            </modules>
+        </data>
+    </configuration>
+
+    <required-capabilities>
+        <capability>urn:opendaylight:params:xml:ns:yang:controller:config:vehicle-provider:impl?module=vehicle-provider-impl&amp;revision=2015-12-07</capability>
+    </required-capabilities>
+
+</snapshot>

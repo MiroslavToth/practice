@@ -5,6 +5,7 @@
  * terms of the Eclipse Public License v1.0 which accompanies this distribution,
  * and is available at http://www.eclipse.org/legal/epl-v10.html
  */
+
 package org.practice.vehicle;
 
 import com.google.common.base.Function;
@@ -24,7 +25,6 @@ import org.opendaylight.yangtools.yang.common.RpcResult;
 
 import javax.annotation.Nullable;
 
-
 public class MyVehicle implements AutoCloseable {
 
     private static final Logger LOG = LoggerFactory.getLogger(MyVehicle.class);
@@ -35,17 +35,17 @@ public class MyVehicle implements AutoCloseable {
 
     private DataBroker dataProvider;
 
-    public MyVehicle() {
+    public MyVehicle(final DataBroker salDataProvider) {
+        setDataProvider(salDataProvider);
     }
 
     private Vehicle buildVehicle (Vehicle.VehicleStatus status) {
         return new VehicleBuilder().setVehicleColor(Vehicle.VehicleColor.BLACK).setVehicleManufacturer(VEHICLE_MANUFACTURER).setVehicleMotorNumber(VEHICLE_MOTOR_NUMBER).setVehicleVINNumber(VEHICLE_VIN_NUMBER).build();
     }
 
-    public void setDataProvider(final DataBroker salDataProvider) {
+    private void setDataProvider(final DataBroker salDataProvider) {
         dataProvider = salDataProvider;
         setVehicleStatusUp(null);
-
     }
 
     public void close() throws Exception {
@@ -92,5 +92,9 @@ public class MyVehicle implements AutoCloseable {
                 }
             }
         });
+    }
+
+    public DataBroker getDataProvider() {
+        return dataProvider;
     }
 }

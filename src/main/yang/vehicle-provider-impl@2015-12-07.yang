@@ -1,7 +1,7 @@
 module vehicle-provider-impl {
 
     yang-version 1;
-    namespace "urn:opendaylight:params:xml:ns:yang:controller:config:toaster-provider:impl";
+    namespace "urn:opendaylight:params:xml:ns:yang:controller:config:vehicle-provider:impl";
     prefix "veh-prov";
 
     import config {
@@ -9,7 +9,7 @@ module vehicle-provider-impl {
         revision-date 2013-04-05;
     }
 
-    import open-daylight-md-sal-binding {
+    import opendaylight-md-sal-binding {
         prefix mdsal;
         revision-date 2013-10-28;
     }
